@@ -18,7 +18,7 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
 from util import tokenize, first_sentence, dist_matrix_to_rank_k
-from util import cosine_dist, tokens_in_common,
+from util import cosine_dist, tokens_in_common
 from util import noun_chunks_match, mean_word_vector
 from util import mean_rank, mean_recall
 
